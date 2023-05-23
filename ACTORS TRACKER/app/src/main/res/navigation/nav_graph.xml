@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/actorListFragment"
-        android:name="com.figueroa.actortracker.ui.ActorListFragment"
+        android:name="com.figueroa.actortracker.ui.actor.listActor.ActorListFragment"
         android:label="fragment_actor_list"
         tools:layout="@layout/fragment_actor_list" >
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/actorInfoFragment"
-        android:name="com.figueroa.actortracker.ui.ActorInfoFragment"
+        android:name="com.figueroa.actortracker.ui.actor.ActorInfoFragment"
         android:label="fragment_actor_info"
         tools:layout="@layout/fragment_actor_info" />
     <fragment
         android:id="@+id/actorAddFragment"
-        android:name="com.figueroa.actortracker.ui.ActorAddFragment"
+        android:name="com.figueroa.actortracker.ui.actor.newActor.ActorAddFragment"
         android:label="fragment_actor_add"
         tools:layout="@layout/fragment_actor_add" />
 </navigation>

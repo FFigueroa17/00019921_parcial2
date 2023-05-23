@@ -1,4 +1,4 @@
-package com.figueroa.actortracker.ui
+package com.figueroa.actortracker.ui.actor.listActor
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,13 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.figueroa.actortracker.R
 
-class ActorAddFragment : Fragment() {
+class ActorListFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_actor_add, container, false)
+        return inflater.inflate(R.layout.fragment_actor_list, container, false)
     }
 }

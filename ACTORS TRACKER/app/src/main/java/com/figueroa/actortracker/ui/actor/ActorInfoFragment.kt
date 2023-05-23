@@ -1,4 +1,4 @@
-package com.figueroa.actortracker.ui
+package com.figueroa.actortracker.ui.actor
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

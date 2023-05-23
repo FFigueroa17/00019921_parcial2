@@ -2,4 +2,10 @@
     <string name="app_name">ActorTracker</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="actors_list">ACTOR\'S LIST</string>
+    <string name="content_description">ADD NEW ACTOR</string>
+    <string name="add_new_actor">ADD NEW ACTOR</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="save_actor">SAVE ACTOR</string>
 </resources>
