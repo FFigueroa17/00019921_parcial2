@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/actorListFragment">
+
+    <fragment
+        android:id="@+id/actorListFragment"
+        android:name="com.figueroa.actortracker.ui.ActorListFragment"
+        android:label="fragment_actor_list"
+        tools:layout="@layout/fragment_actor_list" >
+        <action
+            android:id="@+id/action_actorListFragment_to_actorInfoFragment"
+            app:destination="@id/actorInfoFragment" />
+        <action
+            android:id="@+id/action_actorListFragment_to_actorAddFragment"
+            app:destination="@id/actorAddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/actorInfoFragment"
+        android:name="com.figueroa.actortracker.ui.ActorInfoFragment"
+        android:label="fragment_actor_info"
+        tools:layout="@layout/fragment_actor_info" />
+    <fragment
+        android:id="@+id/actorAddFragment"
+        android:name="com.figueroa.actortracker.ui.ActorAddFragment"
+        android:label="fragment_actor_add"
+        tools:layout="@layout/fragment_actor_add" />
+</navigation>
